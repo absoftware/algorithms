@@ -19,43 +19,43 @@ using namespace std;
 - (void)test0 {
     vector<int> input;
     vector<int> expected;
-    XCTAssertTrue(codility_cyclic_rotation(input, 140) == expected);
+    XCTAssertEqual(expected, codility_cyclic_rotation(input, 140));
 }
 
 - (void)test1 {
     vector<int> input { 0 };
     vector<int> expected { 0 };
-    XCTAssertTrue(codility_cyclic_rotation(input, 140) == expected);
+    XCTAssertEqual(expected, codility_cyclic_rotation(input, 140));
 }
 
 - (void)test2 {
     vector<int> input { 0, 1 };
     vector<int> expected { 1, 0 };
-    XCTAssertTrue(codility_cyclic_rotation(input, 1) == expected);
+    XCTAssertEqual(expected, codility_cyclic_rotation(input, 1));
 }
 
 - (void)testMinus2 {
     vector<int> input { 0, 1 };
     vector<int> expected { 1, 0 };
-    XCTAssertTrue(codility_cyclic_rotation(input, -1) == expected);
+    XCTAssertEqual(expected, codility_cyclic_rotation(input, -1));
 }
 
 - (void)test3 {
     vector<int> input { 3, 8, 9, 7, 6 };
     vector<int> expected { 9, 7, 6, 3, 8 };
-    XCTAssertTrue(codility_cyclic_rotation(input, 3) == expected);
+    XCTAssertEqual(expected, codility_cyclic_rotation(input, 3));
 }
 
 - (void)testZeros {
     vector<int> input { 0, 0, 0 };
     vector<int> expected { 0, 0, 0 };
-    XCTAssertTrue(codility_cyclic_rotation(input, 1) == expected);
+    XCTAssertEqual(expected, codility_cyclic_rotation(input, 1));
 }
 
 - (void)test1234 {
     vector<int> input { 1, 2, 3, 4 };
     vector<int> expected { 1, 2, 3, 4 };
-    XCTAssertTrue(codility_cyclic_rotation(input, 4) == expected);
+    XCTAssertEqual(expected, codility_cyclic_rotation(input, 4));
 }
 
 @end
