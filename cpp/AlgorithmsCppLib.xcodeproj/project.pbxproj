@@ -14,6 +14,9 @@
 		B0B967412A476F9C008E7D9A /* BinaryGap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0B9673F2A476F9C008E7D9A /* BinaryGap.cpp */; };
 		B0B967422A476F9C008E7D9A /* BinaryGap.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B0B967402A476F9C008E7D9A /* BinaryGap.hpp */; };
 		B0B967442A476FE5008E7D9A /* BinaryGapTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = B0B967432A476FE5008E7D9A /* BinaryGapTests.mm */; };
+		B0B967472A477A17008E7D9A /* CyclicRotation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0B967452A477A17008E7D9A /* CyclicRotation.cpp */; };
+		B0B967482A477A17008E7D9A /* CyclicRotation.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B0B967462A477A17008E7D9A /* CyclicRotation.hpp */; };
+		B0B9674A2A478007008E7D9A /* CyclicRotationTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = B0B967492A478007008E7D9A /* CyclicRotationTests.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,9 @@
 		B0B9673F2A476F9C008E7D9A /* BinaryGap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryGap.cpp; sourceTree = "<group>"; };
 		B0B967402A476F9C008E7D9A /* BinaryGap.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryGap.hpp; sourceTree = "<group>"; };
 		B0B967432A476FE5008E7D9A /* BinaryGapTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = BinaryGapTests.mm; sourceTree = "<group>"; };
+		B0B967452A477A17008E7D9A /* CyclicRotation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CyclicRotation.cpp; sourceTree = "<group>"; };
+		B0B967462A477A17008E7D9A /* CyclicRotation.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CyclicRotation.hpp; sourceTree = "<group>"; };
+		B0B967492A478007008E7D9A /* CyclicRotationTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CyclicRotationTests.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,8 @@
 			children = (
 				B0B9673F2A476F9C008E7D9A /* BinaryGap.cpp */,
 				B0B967402A476F9C008E7D9A /* BinaryGap.hpp */,
+				B0B967452A477A17008E7D9A /* CyclicRotation.cpp */,
+				B0B967462A477A17008E7D9A /* CyclicRotation.hpp */,
 			);
 			path = Codility;
 			sourceTree = "<group>";
@@ -104,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				B0B967432A476FE5008E7D9A /* BinaryGapTests.mm */,
+				B0B967492A478007008E7D9A /* CyclicRotationTests.mm */,
 			);
 			path = Codility;
 			sourceTree = "<group>";
@@ -128,6 +137,7 @@
 				B0B967422A476F9C008E7D9A /* BinaryGap.hpp in Headers */,
 				B0B967242A476ED4008E7D9A /* AlgorithmsCppLib.hpp in Headers */,
 				B0B967262A476ED4008E7D9A /* AlgorithmsCppLibPriv.hpp in Headers */,
+				B0B967482A477A17008E7D9A /* CyclicRotation.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0B967282A476ED4008E7D9A /* AlgorithmsCppLib.cpp in Sources */,
+				B0B967472A477A17008E7D9A /* CyclicRotation.cpp in Sources */,
 				B0B967412A476F9C008E7D9A /* BinaryGap.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,6 +240,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0B9674A2A478007008E7D9A /* CyclicRotationTests.mm in Sources */,
 				B0B967442A476FE5008E7D9A /* BinaryGapTests.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
