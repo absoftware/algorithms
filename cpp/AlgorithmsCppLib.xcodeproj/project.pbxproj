@@ -23,6 +23,9 @@
 		B0B967552A479873008E7D9A /* FrogJmp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0B967532A479873008E7D9A /* FrogJmp.cpp */; };
 		B0B967562A479873008E7D9A /* FrogJmp.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B0B967542A479873008E7D9A /* FrogJmp.hpp */; };
 		B0B967582A479889008E7D9A /* FrogJmpTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = B0B967572A479889008E7D9A /* FrogJmpTests.mm */; };
+		B0B9675F2A479CDD008E7D9A /* PermMissingElem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0B9675D2A479CDD008E7D9A /* PermMissingElem.cpp */; };
+		B0B967602A479CDD008E7D9A /* PermMissingElem.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B0B9675E2A479CDD008E7D9A /* PermMissingElem.hpp */; };
+		B0B967622A479CF3008E7D9A /* PermMissingElemTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = B0B967612A479CF3008E7D9A /* PermMissingElemTests.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		B0B967532A479873008E7D9A /* FrogJmp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FrogJmp.cpp; sourceTree = "<group>"; };
 		B0B967542A479873008E7D9A /* FrogJmp.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FrogJmp.hpp; sourceTree = "<group>"; };
 		B0B967572A479889008E7D9A /* FrogJmpTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = FrogJmpTests.mm; sourceTree = "<group>"; };
+		B0B9675D2A479CDD008E7D9A /* PermMissingElem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PermMissingElem.cpp; sourceTree = "<group>"; };
+		B0B9675E2A479CDD008E7D9A /* PermMissingElem.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PermMissingElem.hpp; sourceTree = "<group>"; };
+		B0B967612A479CF3008E7D9A /* PermMissingElemTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = PermMissingElemTests.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +126,8 @@
 				B0B967542A479873008E7D9A /* FrogJmp.hpp */,
 				B0B9674B2A4784E8008E7D9A /* OddOccurrencesInArray.cpp */,
 				B0B9674C2A4784E8008E7D9A /* OddOccurrencesInArray.hpp */,
+				B0B9675D2A479CDD008E7D9A /* PermMissingElem.cpp */,
+				B0B9675E2A479CDD008E7D9A /* PermMissingElem.hpp */,
 			);
 			path = Codility;
 			sourceTree = "<group>";
@@ -131,6 +139,7 @@
 				B0B967492A478007008E7D9A /* CyclicRotationTests.mm */,
 				B0B967572A479889008E7D9A /* FrogJmpTests.mm */,
 				B0B9674F2A47857D008E7D9A /* OddOccurrencesInArrayTests.mm */,
+				B0B967612A479CF3008E7D9A /* PermMissingElemTests.mm */,
 			);
 			path = Codility;
 			sourceTree = "<group>";
@@ -154,6 +163,7 @@
 			files = (
 				B0B967562A479873008E7D9A /* FrogJmp.hpp in Headers */,
 				B0B9674E2A4784E8008E7D9A /* OddOccurrencesInArray.hpp in Headers */,
+				B0B967602A479CDD008E7D9A /* PermMissingElem.hpp in Headers */,
 				B0B967422A476F9C008E7D9A /* BinaryGap.hpp in Headers */,
 				B0B967242A476ED4008E7D9A /* AlgorithmsCppLib.hpp in Headers */,
 				B0B967262A476ED4008E7D9A /* AlgorithmsCppLibPriv.hpp in Headers */,
@@ -255,6 +265,7 @@
 				B0B967472A477A17008E7D9A /* CyclicRotation.cpp in Sources */,
 				B0B967412A476F9C008E7D9A /* BinaryGap.cpp in Sources */,
 				B0B9674D2A4784E8008E7D9A /* OddOccurrencesInArray.cpp in Sources */,
+				B0B9675F2A479CDD008E7D9A /* PermMissingElem.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +276,7 @@
 				B0B9674A2A478007008E7D9A /* CyclicRotationTests.mm in Sources */,
 				B0B967582A479889008E7D9A /* FrogJmpTests.mm in Sources */,
 				B0B967442A476FE5008E7D9A /* BinaryGapTests.mm in Sources */,
+				B0B967622A479CF3008E7D9A /* PermMissingElemTests.mm in Sources */,
 				B0B967502A47857D008E7D9A /* OddOccurrencesInArrayTests.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
