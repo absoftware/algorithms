@@ -1,5 +1,5 @@
 //
-//  BinaryGapTests.m
+//  BinaryGapTests.mm
 //  AlgorithmsCppTests
 //
 //  Created by Ariel Bogdziewicz on 24/06/2023.
