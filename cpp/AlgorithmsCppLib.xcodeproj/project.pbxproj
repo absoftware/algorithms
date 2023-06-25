@@ -32,6 +32,9 @@
 		B0C64F982A47B7F500314E73 /* FrogRiverOne.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0C64F962A47B7F500314E73 /* FrogRiverOne.cpp */; };
 		B0C64F992A47B7F500314E73 /* FrogRiverOne.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B0C64F972A47B7F500314E73 /* FrogRiverOne.hpp */; };
 		B0C64F9B2A47B80800314E73 /* FrogRiverOneTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = B0C64F9A2A47B80800314E73 /* FrogRiverOneTests.mm */; };
+		B0C64F9E2A47BC9C00314E73 /* PermCheck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0C64F9C2A47BC9C00314E73 /* PermCheck.cpp */; };
+		B0C64F9F2A47BC9C00314E73 /* PermCheck.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B0C64F9D2A47BC9C00314E73 /* PermCheck.hpp */; };
+		B0C64FA12A47BCB400314E73 /* PermCheckTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = B0C64FA02A47BCB400314E73 /* PermCheckTests.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +74,9 @@
 		B0C64F962A47B7F500314E73 /* FrogRiverOne.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FrogRiverOne.cpp; sourceTree = "<group>"; };
 		B0C64F972A47B7F500314E73 /* FrogRiverOne.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FrogRiverOne.hpp; sourceTree = "<group>"; };
 		B0C64F9A2A47B80800314E73 /* FrogRiverOneTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = FrogRiverOneTests.mm; sourceTree = "<group>"; };
+		B0C64F9C2A47BC9C00314E73 /* PermCheck.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PermCheck.cpp; sourceTree = "<group>"; };
+		B0C64F9D2A47BC9C00314E73 /* PermCheck.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PermCheck.hpp; sourceTree = "<group>"; };
+		B0C64FA02A47BCB400314E73 /* PermCheckTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = PermCheckTests.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +146,8 @@
 				B0C64F972A47B7F500314E73 /* FrogRiverOne.hpp */,
 				B0B9674B2A4784E8008E7D9A /* OddOccurrencesInArray.cpp */,
 				B0B9674C2A4784E8008E7D9A /* OddOccurrencesInArray.hpp */,
+				B0C64F9C2A47BC9C00314E73 /* PermCheck.cpp */,
+				B0C64F9D2A47BC9C00314E73 /* PermCheck.hpp */,
 				B0B9675D2A479CDD008E7D9A /* PermMissingElem.cpp */,
 				B0B9675E2A479CDD008E7D9A /* PermMissingElem.hpp */,
 				B0C64F902A47B11900314E73 /* TapeEquilibrium.cpp */,
@@ -156,6 +164,7 @@
 				B0B967572A479889008E7D9A /* FrogJmpTests.mm */,
 				B0C64F9A2A47B80800314E73 /* FrogRiverOneTests.mm */,
 				B0B9674F2A47857D008E7D9A /* OddOccurrencesInArrayTests.mm */,
+				B0C64FA02A47BCB400314E73 /* PermCheckTests.mm */,
 				B0B967612A479CF3008E7D9A /* PermMissingElemTests.mm */,
 				B0C64F942A47B13100314E73 /* TapeEquilibriumTests.mm */,
 			);
@@ -180,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0B967562A479873008E7D9A /* FrogJmp.hpp in Headers */,
+				B0C64F9F2A47BC9C00314E73 /* PermCheck.hpp in Headers */,
 				B0B9674E2A4784E8008E7D9A /* OddOccurrencesInArray.hpp in Headers */,
 				B0B967602A479CDD008E7D9A /* PermMissingElem.hpp in Headers */,
 				B0C64F932A47B11900314E73 /* TapeEquilibrium.hpp in Headers */,
@@ -284,6 +294,7 @@
 				B0C64F982A47B7F500314E73 /* FrogRiverOne.cpp in Sources */,
 				B0B967282A476ED4008E7D9A /* AlgorithmsCppLib.cpp in Sources */,
 				B0B967472A477A17008E7D9A /* CyclicRotation.cpp in Sources */,
+				B0C64F9E2A47BC9C00314E73 /* PermCheck.cpp in Sources */,
 				B0B967412A476F9C008E7D9A /* BinaryGap.cpp in Sources */,
 				B0B9674D2A4784E8008E7D9A /* OddOccurrencesInArray.cpp in Sources */,
 				B0B9675F2A479CDD008E7D9A /* PermMissingElem.cpp in Sources */,
@@ -295,6 +306,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0C64FA12A47BCB400314E73 /* PermCheckTests.mm in Sources */,
 				B0C64F9B2A47B80800314E73 /* FrogRiverOneTests.mm in Sources */,
 				B0B9674A2A478007008E7D9A /* CyclicRotationTests.mm in Sources */,
 				B0B967582A479889008E7D9A /* FrogJmpTests.mm in Sources */,
