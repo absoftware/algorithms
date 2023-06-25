@@ -27,6 +27,19 @@
 				</dict>
 			</dict>
 		</dict>
+		<key>MinAvgTwoSliceTests</key>
+		<dict>
+			<key>testBigOnes</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.003639</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>Local Baseline</string>
+				</dict>
+			</dict>
+		</dict>
 		<key>OddOccurrencesInArray</key>
 		<dict>
 			<key>testBig</key>

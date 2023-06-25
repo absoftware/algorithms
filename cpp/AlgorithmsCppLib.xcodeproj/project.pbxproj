@@ -10,6 +10,9 @@
 		B0A3E9612A47F20B00D36903 /* GenomicRangeQuery.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0A3E95F2A47F20B00D36903 /* GenomicRangeQuery.cpp */; };
 		B0A3E9622A47F20B00D36903 /* GenomicRangeQuery.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B0A3E9602A47F20B00D36903 /* GenomicRangeQuery.hpp */; };
 		B0A3E9642A47F22400D36903 /* GenomicRangeQueryTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = B0A3E9632A47F22400D36903 /* GenomicRangeQueryTests.mm */; };
+		B0A3E9672A482E2800D36903 /* MinAvgTwoSlice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0A3E9652A482E2800D36903 /* MinAvgTwoSlice.cpp */; };
+		B0A3E9682A482E2800D36903 /* MinAvgTwoSlice.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B0A3E9662A482E2800D36903 /* MinAvgTwoSlice.hpp */; };
+		B0A3E96A2A482E3C00D36903 /* MinAvgTwoSliceTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = B0A3E9692A482E3C00D36903 /* MinAvgTwoSliceTests.mm */; };
 		B0B967242A476ED4008E7D9A /* AlgorithmsCppLib.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B0B967232A476ED4008E7D9A /* AlgorithmsCppLib.hpp */; };
 		B0B967262A476ED4008E7D9A /* AlgorithmsCppLibPriv.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B0B967252A476ED4008E7D9A /* AlgorithmsCppLibPriv.hpp */; };
 		B0B967282A476ED4008E7D9A /* AlgorithmsCppLib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0B967272A476ED4008E7D9A /* AlgorithmsCppLib.cpp */; };
@@ -66,6 +69,9 @@
 		B0A3E95F2A47F20B00D36903 /* GenomicRangeQuery.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GenomicRangeQuery.cpp; sourceTree = "<group>"; };
 		B0A3E9602A47F20B00D36903 /* GenomicRangeQuery.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GenomicRangeQuery.hpp; sourceTree = "<group>"; };
 		B0A3E9632A47F22400D36903 /* GenomicRangeQueryTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = GenomicRangeQueryTests.mm; sourceTree = "<group>"; };
+		B0A3E9652A482E2800D36903 /* MinAvgTwoSlice.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinAvgTwoSlice.cpp; sourceTree = "<group>"; };
+		B0A3E9662A482E2800D36903 /* MinAvgTwoSlice.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MinAvgTwoSlice.hpp; sourceTree = "<group>"; };
+		B0A3E9692A482E3C00D36903 /* MinAvgTwoSliceTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MinAvgTwoSliceTests.mm; sourceTree = "<group>"; };
 		B0B967202A476ED4008E7D9A /* libAlgorithmsCppLib.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libAlgorithmsCppLib.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0B967232A476ED4008E7D9A /* AlgorithmsCppLib.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AlgorithmsCppLib.hpp; sourceTree = "<group>"; };
 		B0B967252A476ED4008E7D9A /* AlgorithmsCppLibPriv.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AlgorithmsCppLibPriv.hpp; sourceTree = "<group>"; };
@@ -180,6 +186,8 @@
 				B0A3E9602A47F20B00D36903 /* GenomicRangeQuery.hpp */,
 				B0C64FA22A47D10100314E73 /* MaxCounters.cpp */,
 				B0C64FA32A47D10100314E73 /* MaxCounters.hpp */,
+				B0A3E9652A482E2800D36903 /* MinAvgTwoSlice.cpp */,
+				B0A3E9662A482E2800D36903 /* MinAvgTwoSlice.hpp */,
 				B0C64FA82A47D9CB00314E73 /* MissingInteger.cpp */,
 				B0C64FA92A47D9CB00314E73 /* MissingInteger.hpp */,
 				B0B9674B2A4784E8008E7D9A /* OddOccurrencesInArray.cpp */,
@@ -206,6 +214,7 @@
 				B0C64F9A2A47B80800314E73 /* FrogRiverOneTests.mm */,
 				B0A3E9632A47F22400D36903 /* GenomicRangeQueryTests.mm */,
 				B0C64FA62A47D11300314E73 /* MaxCountersTests.mm */,
+				B0A3E9692A482E3C00D36903 /* MinAvgTwoSliceTests.mm */,
 				B0C64FAC2A47DA2700314E73 /* MissingIntegerTests.mm */,
 				B0B9674F2A47857D008E7D9A /* OddOccurrencesInArrayTests.mm */,
 				B0C64FB22A47E0D500314E73 /* PassingCarsTests.mm */,
@@ -237,6 +246,7 @@
 				B0C64FAB2A47D9CB00314E73 /* MissingInteger.hpp in Headers */,
 				B0C64FA52A47D10100314E73 /* MaxCounters.hpp in Headers */,
 				B0B967562A479873008E7D9A /* FrogJmp.hpp in Headers */,
+				B0A3E9682A482E2800D36903 /* MinAvgTwoSlice.hpp in Headers */,
 				B0C64F9F2A47BC9C00314E73 /* PermCheck.hpp in Headers */,
 				B0B9674E2A4784E8008E7D9A /* OddOccurrencesInArray.hpp in Headers */,
 				B0B967602A479CDD008E7D9A /* PermMissingElem.hpp in Headers */,
@@ -345,6 +355,7 @@
 				B0C64FB02A47E07500314E73 /* PassingCars.cpp in Sources */,
 				B0C64F982A47B7F500314E73 /* FrogRiverOne.cpp in Sources */,
 				B0B967282A476ED4008E7D9A /* AlgorithmsCppLib.cpp in Sources */,
+				B0A3E9672A482E2800D36903 /* MinAvgTwoSlice.cpp in Sources */,
 				B0B967472A477A17008E7D9A /* CyclicRotation.cpp in Sources */,
 				B0C64F9E2A47BC9C00314E73 /* PermCheck.cpp in Sources */,
 				B0C64FA42A47D10100314E73 /* MaxCounters.cpp in Sources */,
@@ -362,6 +373,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0A3E9642A47F22400D36903 /* GenomicRangeQueryTests.mm in Sources */,
+				B0A3E96A2A482E3C00D36903 /* MinAvgTwoSliceTests.mm in Sources */,
 				B0C64FA12A47BCB400314E73 /* PermCheckTests.mm in Sources */,
 				B0C64F9B2A47B80800314E73 /* FrogRiverOneTests.mm in Sources */,
 				B0B9674A2A478007008E7D9A /* CyclicRotationTests.mm in Sources */,
