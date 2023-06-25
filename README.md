@@ -1,1 +1,28 @@
-# algorithms
+# Algorithms
+
+Projects with set of algorithms just to remember syntax and some implementation details as a quick reminder. For now only C++ implementation.
+
+## Available implementations
+
+### C++ implementation (macOS, Xcode)
+
+Implementation is based on **Xcode** project:
+
+- Project [cpp/AlgorithmsCppLib.xcodeproj](cpp/AlgorithmsCppLib.xcodeproj): Please open this project in **Xcode** if you want to use it on your own computer. It will load C++ library and unit tests.
+- Target [cpp/AlgorithmsCppLib](cpp/AlgorithmsCppLib/): C++ library with algorithms
+- Target [cpp/AlgorithmsCppTests](cpp/AlgorithmsCppTests/): unit tests based on **XCTest** framework, so tests are written in Objective-C++ in files with extension `*.mm`.
+
+## Codility
+
+Website [Codility](https://app.codility.com/programmers/) delivers set of algorithmic exercises. List of solved tasks is here:
+
+| Task *(external links)* | Implementation |
+|---|---|
+| [Lesson 1 (Iterations): BinaryGap](https://app.codility.com/programmers/lessons/1-iterations/binary_gap/) *[easy]* | [C++](cpp/AlgorithmsCppLib/Codility/BinaryGap.cpp) ([tests](cpp/AlgorithmsCppTests/Codility/BinaryGapTests.mm)) |
+| [Lesson 2 (Arrays): CyclicRotation](https://app.codility.com/programmers/lessons/2-arrays/cyclic_rotation/) *[easy]* | [C++](cpp/AlgorithmsCppLib/Codility/CyclicRotation.cpp) ([tests](cpp/AlgorithmsCppTests/Codility/CyclicRotationTests.mm)) |
+| [Lesson 2 (Arrays): OddOccurrencesInArray](https://app.codility.com/programmers/lessons/2-arrays/odd_occurrences_in_array/) *[easy]* | [C++](cpp/AlgorithmsCppLib/Codility/OddOccurrencesInArray.cpp) ([tests](cpp/AlgorithmsCppTests/Codility/OddOccurrencesInArrayTests.mm)) |
+| [Lesson 3 (Time Complexity): FrogJmp](https://app.codility.com/programmers/lessons/3-time_complexity/frog_jmp/) *[easy]* | [C++](cpp/AlgorithmsCppLib/Codility/FrogJmp.cpp) ([tests](cpp/AlgorithmsCppTests/Codility/FrogJmpTests.mm)) |
+| [Lesson 3 (Time Complexity): PermMissingElem](https://app.codility.com/programmers/lessons/3-time_complexity/perm_missing_elem/) *[easy]* | [C++](cpp/AlgorithmsCppLib/Codility/PermCheck.cpp) ([tests](cpp/AlgorithmsCppTests/Codility/PermCheckTests.mm)) |
+| [Lesson 3 (Time Complexity): TapeEquilibrium](https://app.codility.com/programmers/lessons/3-time_complexity/tape_equilibrium/) *[easy]* | [C++](cpp/AlgorithmsCppLib/Codility/TapeEquilibrium.cpp) ([tests](cpp/AlgorithmsCppTests/Codility/TapeEquilibriumTests.mm)) |
+| [Lesson 4 (Counting Elements): FrogRiverOne](https://app.codility.com/programmers/lessons/4-counting_elements/frog_river_one/) *[easy]* | [C++](cpp/AlgorithmsCppLib/Codility/FrogRiverOne.cpp) ([tests](cpp/AlgorithmsCppTests/Codility/FrogRiverOneTests.mm)) |
+| [Lesson 4 (Counting Elements): PermCheck](https://app.codility.com/programmers/lessons/4-counting_elements/perm_check/) *[easy]* | [C++](cpp/AlgorithmsCppLib/Codility/PermCheck.cpp) ([tests](cpp/AlgorithmsCppTests/Codility/PermCheckTests.mm)) |
