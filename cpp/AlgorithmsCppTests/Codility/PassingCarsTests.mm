@@ -1,5 +1,5 @@
 //
-//  PassingCars.mm
+//  PassingCarsTests.mm
 //  AlgorithmsCppTests
 //
 //  Created by Ariel Bogdziewicz on 25/06/2023.
@@ -10,11 +10,11 @@
 
 using namespace std;
 
-@interface PassingCars : XCTestCase
+@interface PassingCarsTests : XCTestCase
 
 @end
 
-@implementation PassingCars
+@implementation PassingCarsTests
 
 - (void)testExample {
     vector<int> input { 0, 1, 0, 1, 1 };

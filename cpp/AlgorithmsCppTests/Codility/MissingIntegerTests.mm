@@ -1,5 +1,5 @@
 //
-//  MissingInteger.mm
+//  MissingIntegerTests.mm
 //  AlgorithmsCppTests
 //
 //  Created by Ariel Bogdziewicz on 25/06/2023.
@@ -10,11 +10,11 @@
 
 using namespace std;
 
-@interface MissingInteger : XCTestCase
+@interface MissingIntegerTests : XCTestCase
 
 @end
 
-@implementation MissingInteger
+@implementation MissingIntegerTests
 
 - (void)testExample1 {
     vector<int> input { 1, 3, 6, 4, 1, 2 };

@@ -40,10 +40,13 @@
 		B0C64FA72A47D11300314E73 /* MaxCountersTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = B0C64FA62A47D11300314E73 /* MaxCountersTests.mm */; };
 		B0C64FAA2A47D9CB00314E73 /* MissingInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0C64FA82A47D9CB00314E73 /* MissingInteger.cpp */; };
 		B0C64FAB2A47D9CB00314E73 /* MissingInteger.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B0C64FA92A47D9CB00314E73 /* MissingInteger.hpp */; };
-		B0C64FAD2A47DA2700314E73 /* MissingInteger.mm in Sources */ = {isa = PBXBuildFile; fileRef = B0C64FAC2A47DA2700314E73 /* MissingInteger.mm */; };
+		B0C64FAD2A47DA2700314E73 /* MissingIntegerTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = B0C64FAC2A47DA2700314E73 /* MissingIntegerTests.mm */; };
 		B0C64FB02A47E07500314E73 /* PassingCars.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0C64FAE2A47E07500314E73 /* PassingCars.cpp */; };
 		B0C64FB12A47E07500314E73 /* PassingCars.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B0C64FAF2A47E07500314E73 /* PassingCars.hpp */; };
-		B0C64FB32A47E0D500314E73 /* PassingCars.mm in Sources */ = {isa = PBXBuildFile; fileRef = B0C64FB22A47E0D500314E73 /* PassingCars.mm */; };
+		B0C64FB32A47E0D500314E73 /* PassingCarsTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = B0C64FB22A47E0D500314E73 /* PassingCarsTests.mm */; };
+		B0C64FB62A47E4BD00314E73 /* CountDiv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0C64FB42A47E4BD00314E73 /* CountDiv.cpp */; };
+		B0C64FB72A47E4BD00314E73 /* CountDiv.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B0C64FB52A47E4BD00314E73 /* CountDiv.hpp */; };
+		B0C64FB92A47E51300314E73 /* CountDivTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = B0C64FB82A47E51300314E73 /* CountDivTests.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,10 +94,13 @@
 		B0C64FA62A47D11300314E73 /* MaxCountersTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MaxCountersTests.mm; sourceTree = "<group>"; };
 		B0C64FA82A47D9CB00314E73 /* MissingInteger.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MissingInteger.cpp; sourceTree = "<group>"; };
 		B0C64FA92A47D9CB00314E73 /* MissingInteger.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MissingInteger.hpp; sourceTree = "<group>"; };
-		B0C64FAC2A47DA2700314E73 /* MissingInteger.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MissingInteger.mm; sourceTree = "<group>"; };
+		B0C64FAC2A47DA2700314E73 /* MissingIntegerTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MissingIntegerTests.mm; sourceTree = "<group>"; };
 		B0C64FAE2A47E07500314E73 /* PassingCars.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PassingCars.cpp; sourceTree = "<group>"; };
 		B0C64FAF2A47E07500314E73 /* PassingCars.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PassingCars.hpp; sourceTree = "<group>"; };
-		B0C64FB22A47E0D500314E73 /* PassingCars.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = PassingCars.mm; sourceTree = "<group>"; };
+		B0C64FB22A47E0D500314E73 /* PassingCarsTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = PassingCarsTests.mm; sourceTree = "<group>"; };
+		B0C64FB42A47E4BD00314E73 /* CountDiv.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CountDiv.cpp; sourceTree = "<group>"; };
+		B0C64FB52A47E4BD00314E73 /* CountDiv.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CountDiv.hpp; sourceTree = "<group>"; };
+		B0C64FB82A47E51300314E73 /* CountDivTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CountDivTests.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +162,8 @@
 			children = (
 				B0B9673F2A476F9C008E7D9A /* BinaryGap.cpp */,
 				B0B967402A476F9C008E7D9A /* BinaryGap.hpp */,
+				B0C64FB42A47E4BD00314E73 /* CountDiv.cpp */,
+				B0C64FB52A47E4BD00314E73 /* CountDiv.hpp */,
 				B0B967452A477A17008E7D9A /* CyclicRotation.cpp */,
 				B0B967462A477A17008E7D9A /* CyclicRotation.hpp */,
 				B0B967532A479873008E7D9A /* FrogJmp.cpp */,
@@ -184,13 +192,14 @@
 			isa = PBXGroup;
 			children = (
 				B0B967432A476FE5008E7D9A /* BinaryGapTests.mm */,
+				B0C64FB82A47E51300314E73 /* CountDivTests.mm */,
 				B0B967492A478007008E7D9A /* CyclicRotationTests.mm */,
 				B0B967572A479889008E7D9A /* FrogJmpTests.mm */,
 				B0C64F9A2A47B80800314E73 /* FrogRiverOneTests.mm */,
 				B0C64FA62A47D11300314E73 /* MaxCountersTests.mm */,
-				B0C64FAC2A47DA2700314E73 /* MissingInteger.mm */,
+				B0C64FAC2A47DA2700314E73 /* MissingIntegerTests.mm */,
 				B0B9674F2A47857D008E7D9A /* OddOccurrencesInArrayTests.mm */,
-				B0C64FB22A47E0D500314E73 /* PassingCars.mm */,
+				B0C64FB22A47E0D500314E73 /* PassingCarsTests.mm */,
 				B0C64FA02A47BCB400314E73 /* PermCheckTests.mm */,
 				B0B967612A479CF3008E7D9A /* PermMissingElemTests.mm */,
 				B0C64F942A47B13100314E73 /* TapeEquilibriumTests.mm */,
@@ -215,6 +224,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0C64FB72A47E4BD00314E73 /* CountDiv.hpp in Headers */,
 				B0C64FAB2A47D9CB00314E73 /* MissingInteger.hpp in Headers */,
 				B0C64FA52A47D10100314E73 /* MaxCounters.hpp in Headers */,
 				B0B967562A479873008E7D9A /* FrogJmp.hpp in Headers */,
@@ -332,6 +342,7 @@
 				B0B9674D2A4784E8008E7D9A /* OddOccurrencesInArray.cpp in Sources */,
 				B0B9675F2A479CDD008E7D9A /* PermMissingElem.cpp in Sources */,
 				B0C64F922A47B11900314E73 /* TapeEquilibrium.cpp in Sources */,
+				B0C64FB62A47E4BD00314E73 /* CountDiv.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,13 +353,14 @@
 				B0C64FA12A47BCB400314E73 /* PermCheckTests.mm in Sources */,
 				B0C64F9B2A47B80800314E73 /* FrogRiverOneTests.mm in Sources */,
 				B0B9674A2A478007008E7D9A /* CyclicRotationTests.mm in Sources */,
-				B0C64FAD2A47DA2700314E73 /* MissingInteger.mm in Sources */,
+				B0C64FAD2A47DA2700314E73 /* MissingIntegerTests.mm in Sources */,
 				B0B967582A479889008E7D9A /* FrogJmpTests.mm in Sources */,
 				B0B967442A476FE5008E7D9A /* BinaryGapTests.mm in Sources */,
 				B0B967622A479CF3008E7D9A /* PermMissingElemTests.mm in Sources */,
 				B0C64F952A47B13100314E73 /* TapeEquilibriumTests.mm in Sources */,
 				B0B967502A47857D008E7D9A /* OddOccurrencesInArrayTests.mm in Sources */,
-				B0C64FB32A47E0D500314E73 /* PassingCars.mm in Sources */,
+				B0C64FB92A47E51300314E73 /* CountDivTests.mm in Sources */,
+				B0C64FB32A47E0D500314E73 /* PassingCarsTests.mm in Sources */,
 				B0C64FA72A47D11300314E73 /* MaxCountersTests.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
