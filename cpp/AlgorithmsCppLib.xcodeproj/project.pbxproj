@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B0A3E9612A47F20B00D36903 /* GenomicRangeQuery.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0A3E95F2A47F20B00D36903 /* GenomicRangeQuery.cpp */; };
+		B0A3E9622A47F20B00D36903 /* GenomicRangeQuery.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B0A3E9602A47F20B00D36903 /* GenomicRangeQuery.hpp */; };
+		B0A3E9642A47F22400D36903 /* GenomicRangeQueryTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = B0A3E9632A47F22400D36903 /* GenomicRangeQueryTests.mm */; };
 		B0B967242A476ED4008E7D9A /* AlgorithmsCppLib.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B0B967232A476ED4008E7D9A /* AlgorithmsCppLib.hpp */; };
 		B0B967262A476ED4008E7D9A /* AlgorithmsCppLibPriv.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B0B967252A476ED4008E7D9A /* AlgorithmsCppLibPriv.hpp */; };
 		B0B967282A476ED4008E7D9A /* AlgorithmsCppLib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0B967272A476ED4008E7D9A /* AlgorithmsCppLib.cpp */; };
@@ -60,6 +63,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B0A3E95F2A47F20B00D36903 /* GenomicRangeQuery.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GenomicRangeQuery.cpp; sourceTree = "<group>"; };
+		B0A3E9602A47F20B00D36903 /* GenomicRangeQuery.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GenomicRangeQuery.hpp; sourceTree = "<group>"; };
+		B0A3E9632A47F22400D36903 /* GenomicRangeQueryTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = GenomicRangeQueryTests.mm; sourceTree = "<group>"; };
 		B0B967202A476ED4008E7D9A /* libAlgorithmsCppLib.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libAlgorithmsCppLib.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0B967232A476ED4008E7D9A /* AlgorithmsCppLib.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AlgorithmsCppLib.hpp; sourceTree = "<group>"; };
 		B0B967252A476ED4008E7D9A /* AlgorithmsCppLibPriv.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AlgorithmsCppLibPriv.hpp; sourceTree = "<group>"; };
@@ -170,6 +176,8 @@
 				B0B967542A479873008E7D9A /* FrogJmp.hpp */,
 				B0C64F962A47B7F500314E73 /* FrogRiverOne.cpp */,
 				B0C64F972A47B7F500314E73 /* FrogRiverOne.hpp */,
+				B0A3E95F2A47F20B00D36903 /* GenomicRangeQuery.cpp */,
+				B0A3E9602A47F20B00D36903 /* GenomicRangeQuery.hpp */,
 				B0C64FA22A47D10100314E73 /* MaxCounters.cpp */,
 				B0C64FA32A47D10100314E73 /* MaxCounters.hpp */,
 				B0C64FA82A47D9CB00314E73 /* MissingInteger.cpp */,
@@ -196,6 +204,7 @@
 				B0B967492A478007008E7D9A /* CyclicRotationTests.mm */,
 				B0B967572A479889008E7D9A /* FrogJmpTests.mm */,
 				B0C64F9A2A47B80800314E73 /* FrogRiverOneTests.mm */,
+				B0A3E9632A47F22400D36903 /* GenomicRangeQueryTests.mm */,
 				B0C64FA62A47D11300314E73 /* MaxCountersTests.mm */,
 				B0C64FAC2A47DA2700314E73 /* MissingIntegerTests.mm */,
 				B0B9674F2A47857D008E7D9A /* OddOccurrencesInArrayTests.mm */,
@@ -233,6 +242,7 @@
 				B0B967602A479CDD008E7D9A /* PermMissingElem.hpp in Headers */,
 				B0C64F932A47B11900314E73 /* TapeEquilibrium.hpp in Headers */,
 				B0B967422A476F9C008E7D9A /* BinaryGap.hpp in Headers */,
+				B0A3E9622A47F20B00D36903 /* GenomicRangeQuery.hpp in Headers */,
 				B0B967242A476ED4008E7D9A /* AlgorithmsCppLib.hpp in Headers */,
 				B0B967262A476ED4008E7D9A /* AlgorithmsCppLibPriv.hpp in Headers */,
 				B0C64FB12A47E07500314E73 /* PassingCars.hpp in Headers */,
@@ -339,6 +349,7 @@
 				B0C64F9E2A47BC9C00314E73 /* PermCheck.cpp in Sources */,
 				B0C64FA42A47D10100314E73 /* MaxCounters.cpp in Sources */,
 				B0B967412A476F9C008E7D9A /* BinaryGap.cpp in Sources */,
+				B0A3E9612A47F20B00D36903 /* GenomicRangeQuery.cpp in Sources */,
 				B0B9674D2A4784E8008E7D9A /* OddOccurrencesInArray.cpp in Sources */,
 				B0B9675F2A479CDD008E7D9A /* PermMissingElem.cpp in Sources */,
 				B0C64F922A47B11900314E73 /* TapeEquilibrium.cpp in Sources */,
@@ -350,6 +361,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0A3E9642A47F22400D36903 /* GenomicRangeQueryTests.mm in Sources */,
 				B0C64FA12A47BCB400314E73 /* PermCheckTests.mm in Sources */,
 				B0C64F9B2A47B80800314E73 /* FrogRiverOneTests.mm in Sources */,
 				B0B9674A2A478007008E7D9A /* CyclicRotationTests.mm in Sources */,
