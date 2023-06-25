@@ -41,6 +41,9 @@
 		B0C64FAA2A47D9CB00314E73 /* MissingInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0C64FA82A47D9CB00314E73 /* MissingInteger.cpp */; };
 		B0C64FAB2A47D9CB00314E73 /* MissingInteger.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B0C64FA92A47D9CB00314E73 /* MissingInteger.hpp */; };
 		B0C64FAD2A47DA2700314E73 /* MissingInteger.mm in Sources */ = {isa = PBXBuildFile; fileRef = B0C64FAC2A47DA2700314E73 /* MissingInteger.mm */; };
+		B0C64FB02A47E07500314E73 /* PassingCars.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0C64FAE2A47E07500314E73 /* PassingCars.cpp */; };
+		B0C64FB12A47E07500314E73 /* PassingCars.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B0C64FAF2A47E07500314E73 /* PassingCars.hpp */; };
+		B0C64FB32A47E0D500314E73 /* PassingCars.mm in Sources */ = {isa = PBXBuildFile; fileRef = B0C64FB22A47E0D500314E73 /* PassingCars.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +92,9 @@
 		B0C64FA82A47D9CB00314E73 /* MissingInteger.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MissingInteger.cpp; sourceTree = "<group>"; };
 		B0C64FA92A47D9CB00314E73 /* MissingInteger.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MissingInteger.hpp; sourceTree = "<group>"; };
 		B0C64FAC2A47DA2700314E73 /* MissingInteger.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MissingInteger.mm; sourceTree = "<group>"; };
+		B0C64FAE2A47E07500314E73 /* PassingCars.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PassingCars.cpp; sourceTree = "<group>"; };
+		B0C64FAF2A47E07500314E73 /* PassingCars.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PassingCars.hpp; sourceTree = "<group>"; };
+		B0C64FB22A47E0D500314E73 /* PassingCars.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = PassingCars.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +168,8 @@
 				B0C64FA92A47D9CB00314E73 /* MissingInteger.hpp */,
 				B0B9674B2A4784E8008E7D9A /* OddOccurrencesInArray.cpp */,
 				B0B9674C2A4784E8008E7D9A /* OddOccurrencesInArray.hpp */,
+				B0C64FAE2A47E07500314E73 /* PassingCars.cpp */,
+				B0C64FAF2A47E07500314E73 /* PassingCars.hpp */,
 				B0C64F9C2A47BC9C00314E73 /* PermCheck.cpp */,
 				B0C64F9D2A47BC9C00314E73 /* PermCheck.hpp */,
 				B0B9675D2A479CDD008E7D9A /* PermMissingElem.cpp */,
@@ -182,6 +190,7 @@
 				B0C64FA62A47D11300314E73 /* MaxCountersTests.mm */,
 				B0C64FAC2A47DA2700314E73 /* MissingInteger.mm */,
 				B0B9674F2A47857D008E7D9A /* OddOccurrencesInArrayTests.mm */,
+				B0C64FB22A47E0D500314E73 /* PassingCars.mm */,
 				B0C64FA02A47BCB400314E73 /* PermCheckTests.mm */,
 				B0B967612A479CF3008E7D9A /* PermMissingElemTests.mm */,
 				B0C64F942A47B13100314E73 /* TapeEquilibriumTests.mm */,
@@ -216,6 +225,7 @@
 				B0B967422A476F9C008E7D9A /* BinaryGap.hpp in Headers */,
 				B0B967242A476ED4008E7D9A /* AlgorithmsCppLib.hpp in Headers */,
 				B0B967262A476ED4008E7D9A /* AlgorithmsCppLibPriv.hpp in Headers */,
+				B0C64FB12A47E07500314E73 /* PassingCars.hpp in Headers */,
 				B0C64F992A47B7F500314E73 /* FrogRiverOne.hpp in Headers */,
 				B0B967482A477A17008E7D9A /* CyclicRotation.hpp in Headers */,
 			);
@@ -312,6 +322,7 @@
 			files = (
 				B0B967552A479873008E7D9A /* FrogJmp.cpp in Sources */,
 				B0C64FAA2A47D9CB00314E73 /* MissingInteger.cpp in Sources */,
+				B0C64FB02A47E07500314E73 /* PassingCars.cpp in Sources */,
 				B0C64F982A47B7F500314E73 /* FrogRiverOne.cpp in Sources */,
 				B0B967282A476ED4008E7D9A /* AlgorithmsCppLib.cpp in Sources */,
 				B0B967472A477A17008E7D9A /* CyclicRotation.cpp in Sources */,
@@ -337,6 +348,7 @@
 				B0B967622A479CF3008E7D9A /* PermMissingElemTests.mm in Sources */,
 				B0C64F952A47B13100314E73 /* TapeEquilibriumTests.mm in Sources */,
 				B0B967502A47857D008E7D9A /* OddOccurrencesInArrayTests.mm in Sources */,
+				B0C64FB32A47E0D500314E73 /* PassingCars.mm in Sources */,
 				B0C64FA72A47D11300314E73 /* MaxCountersTests.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
