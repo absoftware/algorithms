@@ -10,9 +10,6 @@
 
 using namespace std;
 
-#define BINARY_OPTIMIZATION
-#ifdef BINARY_OPTIMIZATION
-
 int findNearestGreaterPow2(int value) {
     int pow = 0;
     while ((1 << pow) < value) {
@@ -65,8 +62,6 @@ int findMinimum(int p, int q, int pow, unordered_map<int, vector<int>> &mapping,
     return factor;
 }
 
-#endif
-
 vector<int> codility_genomic_range_query(const string &S, vector<int> &P, vector<int> &Q) {
     int N = (int)S.length();
     if (N < 1 || N > 100000) {
@@ -115,7 +110,6 @@ vector<int> codility_genomic_range_query(const string &S, vector<int> &P, vector
         }
     }
 
-#ifdef BINARY_OPTIMIZATION
     int pow = findNearestGreaterPow2((int)factors.size());
     unordered_map<int, vector<int>> scaling;
     vector<int> previousScale(1 << pow);
@@ -140,7 +134,6 @@ vector<int> codility_genomic_range_query(const string &S, vector<int> &P, vector
         scaling[p] = scale;
         previousScale = scale;
     }
-#endif
 
     vector<int> result(M, 0);
     for (int k = 0; k < M; k++) {
@@ -155,21 +148,7 @@ vector<int> codility_genomic_range_query(const string &S, vector<int> &P, vector
             return vector<int>();
         }
 
-#ifdef BINARY_OPTIMIZATION
         int minimumFactor = findMinimum(indexP, indexQ, pow, scaling, globalMinimumFactor);
-#else
-        int minimumFactor = 5;
-        for (int m = indexP; m <= indexQ; m++) {
-            int factor = factors[m];
-            if (minimumFactor > factor) {
-                minimumFactor = factor;
-                if (minimumFactor <= globalMinimumFactor) {
-                    break;
-                }
-            }
-        }
-#endif
-
         result[k] = minimumFactor;
     }
 
