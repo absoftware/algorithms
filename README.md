@@ -14,7 +14,7 @@ Implementation is based on **Xcode** project:
 
 ## Codility
 
-Website [Codility](https://app.codility.com/programmers/) delivers set of algorithmic exercises. List of solved tasks is here:
+Website [Codility](https://app.codility.com/programmers/) delivers set of algorithmic exercises. List of solved tasks is here (all passed 100% for correctness and performance):
 
 | Task *(external links)* | Implementation |
 |---|---|
@@ -27,3 +27,4 @@ Website [Codility](https://app.codility.com/programmers/) delivers set of algori
 | [Lesson 4 (Counting Elements): FrogRiverOne](https://app.codility.com/programmers/lessons/4-counting_elements/frog_river_one/) *[easy]* | [C++](cpp/AlgorithmsCppLib/Codility/FrogRiverOne.cpp) ([tests](cpp/AlgorithmsCppTests/Codility/FrogRiverOneTests.mm)) |
 | [Lesson 4 (Counting Elements): PermCheck](https://app.codility.com/programmers/lessons/4-counting_elements/perm_check/) *[easy]* | [C++](cpp/AlgorithmsCppLib/Codility/PermCheck.cpp) ([tests](cpp/AlgorithmsCppTests/Codility/PermCheckTests.mm)) |
 | [Lesson 4 (Counting Elements): MaxCounters](https://app.codility.com/programmers/lessons/4-counting_elements/max_counters/) *[medium]* | [C++](cpp/AlgorithmsCppLib/Codility/MaxCounters.cpp) ([tests](cpp/AlgorithmsCppTests/Codility/MaxCountersTests.mm)) |
+| [Lesson 4 (Counting Elements): MissingInteger](https://app.codility.com/programmers/lessons/4-counting_elements/missing_integer/) *[medium]* | [C++](cpp/AlgorithmsCppLib/Codility/MissingInteger.cpp) ([tests](cpp/AlgorithmsCppTests/Codility/MissingInteger.mm)) |

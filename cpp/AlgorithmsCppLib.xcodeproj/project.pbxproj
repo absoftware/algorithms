@@ -38,6 +38,9 @@
 		B0C64FA42A47D10100314E73 /* MaxCounters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0C64FA22A47D10100314E73 /* MaxCounters.cpp */; };
 		B0C64FA52A47D10100314E73 /* MaxCounters.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B0C64FA32A47D10100314E73 /* MaxCounters.hpp */; };
 		B0C64FA72A47D11300314E73 /* MaxCountersTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = B0C64FA62A47D11300314E73 /* MaxCountersTests.mm */; };
+		B0C64FAA2A47D9CB00314E73 /* MissingInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0C64FA82A47D9CB00314E73 /* MissingInteger.cpp */; };
+		B0C64FAB2A47D9CB00314E73 /* MissingInteger.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B0C64FA92A47D9CB00314E73 /* MissingInteger.hpp */; };
+		B0C64FAD2A47DA2700314E73 /* MissingInteger.mm in Sources */ = {isa = PBXBuildFile; fileRef = B0C64FAC2A47DA2700314E73 /* MissingInteger.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +86,9 @@
 		B0C64FA22A47D10100314E73 /* MaxCounters.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MaxCounters.cpp; sourceTree = "<group>"; };
 		B0C64FA32A47D10100314E73 /* MaxCounters.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MaxCounters.hpp; sourceTree = "<group>"; };
 		B0C64FA62A47D11300314E73 /* MaxCountersTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MaxCountersTests.mm; sourceTree = "<group>"; };
+		B0C64FA82A47D9CB00314E73 /* MissingInteger.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MissingInteger.cpp; sourceTree = "<group>"; };
+		B0C64FA92A47D9CB00314E73 /* MissingInteger.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MissingInteger.hpp; sourceTree = "<group>"; };
+		B0C64FAC2A47DA2700314E73 /* MissingInteger.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MissingInteger.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +158,8 @@
 				B0C64F972A47B7F500314E73 /* FrogRiverOne.hpp */,
 				B0C64FA22A47D10100314E73 /* MaxCounters.cpp */,
 				B0C64FA32A47D10100314E73 /* MaxCounters.hpp */,
+				B0C64FA82A47D9CB00314E73 /* MissingInteger.cpp */,
+				B0C64FA92A47D9CB00314E73 /* MissingInteger.hpp */,
 				B0B9674B2A4784E8008E7D9A /* OddOccurrencesInArray.cpp */,
 				B0B9674C2A4784E8008E7D9A /* OddOccurrencesInArray.hpp */,
 				B0C64F9C2A47BC9C00314E73 /* PermCheck.cpp */,
@@ -171,11 +179,12 @@
 				B0B967492A478007008E7D9A /* CyclicRotationTests.mm */,
 				B0B967572A479889008E7D9A /* FrogJmpTests.mm */,
 				B0C64F9A2A47B80800314E73 /* FrogRiverOneTests.mm */,
+				B0C64FA62A47D11300314E73 /* MaxCountersTests.mm */,
+				B0C64FAC2A47DA2700314E73 /* MissingInteger.mm */,
 				B0B9674F2A47857D008E7D9A /* OddOccurrencesInArrayTests.mm */,
 				B0C64FA02A47BCB400314E73 /* PermCheckTests.mm */,
 				B0B967612A479CF3008E7D9A /* PermMissingElemTests.mm */,
 				B0C64F942A47B13100314E73 /* TapeEquilibriumTests.mm */,
-				B0C64FA62A47D11300314E73 /* MaxCountersTests.mm */,
 			);
 			path = Codility;
 			sourceTree = "<group>";
@@ -197,6 +206,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0C64FAB2A47D9CB00314E73 /* MissingInteger.hpp in Headers */,
 				B0C64FA52A47D10100314E73 /* MaxCounters.hpp in Headers */,
 				B0B967562A479873008E7D9A /* FrogJmp.hpp in Headers */,
 				B0C64F9F2A47BC9C00314E73 /* PermCheck.hpp in Headers */,
@@ -301,6 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0B967552A479873008E7D9A /* FrogJmp.cpp in Sources */,
+				B0C64FAA2A47D9CB00314E73 /* MissingInteger.cpp in Sources */,
 				B0C64F982A47B7F500314E73 /* FrogRiverOne.cpp in Sources */,
 				B0B967282A476ED4008E7D9A /* AlgorithmsCppLib.cpp in Sources */,
 				B0B967472A477A17008E7D9A /* CyclicRotation.cpp in Sources */,
@@ -320,6 +331,7 @@
 				B0C64FA12A47BCB400314E73 /* PermCheckTests.mm in Sources */,
 				B0C64F9B2A47B80800314E73 /* FrogRiverOneTests.mm in Sources */,
 				B0B9674A2A478007008E7D9A /* CyclicRotationTests.mm in Sources */,
+				B0C64FAD2A47DA2700314E73 /* MissingInteger.mm in Sources */,
 				B0B967582A479889008E7D9A /* FrogJmpTests.mm in Sources */,
 				B0B967442A476FE5008E7D9A /* BinaryGapTests.mm in Sources */,
 				B0B967622A479CF3008E7D9A /* PermMissingElemTests.mm in Sources */,
