@@ -53,6 +53,9 @@
 		B0C64FB62A47E4BD00314E73 /* CountDiv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0C64FB42A47E4BD00314E73 /* CountDiv.cpp */; };
 		B0C64FB72A47E4BD00314E73 /* CountDiv.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B0C64FB52A47E4BD00314E73 /* CountDiv.hpp */; };
 		B0C64FB92A47E51300314E73 /* CountDivTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = B0C64FB82A47E51300314E73 /* CountDivTests.mm */; };
+		B0CBDE5E2A49A2AE00B927F5 /* Distinct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0CBDE5C2A49A2AE00B927F5 /* Distinct.cpp */; };
+		B0CBDE5F2A49A2AE00B927F5 /* Distinct.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B0CBDE5D2A49A2AE00B927F5 /* Distinct.hpp */; };
+		B0CBDE612A49A2C700B927F5 /* DistinctTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = B0CBDE602A49A2C700B927F5 /* DistinctTests.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +116,9 @@
 		B0C64FB42A47E4BD00314E73 /* CountDiv.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CountDiv.cpp; sourceTree = "<group>"; };
 		B0C64FB52A47E4BD00314E73 /* CountDiv.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CountDiv.hpp; sourceTree = "<group>"; };
 		B0C64FB82A47E51300314E73 /* CountDivTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CountDivTests.mm; sourceTree = "<group>"; };
+		B0CBDE5C2A49A2AE00B927F5 /* Distinct.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Distinct.cpp; sourceTree = "<group>"; };
+		B0CBDE5D2A49A2AE00B927F5 /* Distinct.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Distinct.hpp; sourceTree = "<group>"; };
+		B0CBDE602A49A2C700B927F5 /* DistinctTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = DistinctTests.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +184,8 @@
 				B0C64FB52A47E4BD00314E73 /* CountDiv.hpp */,
 				B0B967452A477A17008E7D9A /* CyclicRotation.cpp */,
 				B0B967462A477A17008E7D9A /* CyclicRotation.hpp */,
+				B0CBDE5C2A49A2AE00B927F5 /* Distinct.cpp */,
+				B0CBDE5D2A49A2AE00B927F5 /* Distinct.hpp */,
 				B0B967532A479873008E7D9A /* FrogJmp.cpp */,
 				B0B967542A479873008E7D9A /* FrogJmp.hpp */,
 				B0C64F962A47B7F500314E73 /* FrogRiverOne.cpp */,
@@ -210,6 +218,7 @@
 				B0B967432A476FE5008E7D9A /* BinaryGapTests.mm */,
 				B0C64FB82A47E51300314E73 /* CountDivTests.mm */,
 				B0B967492A478007008E7D9A /* CyclicRotationTests.mm */,
+				B0CBDE602A49A2C700B927F5 /* DistinctTests.mm */,
 				B0B967572A479889008E7D9A /* FrogJmpTests.mm */,
 				B0C64F9A2A47B80800314E73 /* FrogRiverOneTests.mm */,
 				B0A3E9632A47F22400D36903 /* GenomicRangeQueryTests.mm */,
@@ -250,6 +259,7 @@
 				B0C64F9F2A47BC9C00314E73 /* PermCheck.hpp in Headers */,
 				B0B9674E2A4784E8008E7D9A /* OddOccurrencesInArray.hpp in Headers */,
 				B0B967602A479CDD008E7D9A /* PermMissingElem.hpp in Headers */,
+				B0CBDE5F2A49A2AE00B927F5 /* Distinct.hpp in Headers */,
 				B0C64F932A47B11900314E73 /* TapeEquilibrium.hpp in Headers */,
 				B0B967422A476F9C008E7D9A /* BinaryGap.hpp in Headers */,
 				B0A3E9622A47F20B00D36903 /* GenomicRangeQuery.hpp in Headers */,
@@ -365,6 +375,7 @@
 				B0B9675F2A479CDD008E7D9A /* PermMissingElem.cpp in Sources */,
 				B0C64F922A47B11900314E73 /* TapeEquilibrium.cpp in Sources */,
 				B0C64FB62A47E4BD00314E73 /* CountDiv.cpp in Sources */,
+				B0CBDE5E2A49A2AE00B927F5 /* Distinct.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +389,7 @@
 				B0C64F9B2A47B80800314E73 /* FrogRiverOneTests.mm in Sources */,
 				B0B9674A2A478007008E7D9A /* CyclicRotationTests.mm in Sources */,
 				B0C64FAD2A47DA2700314E73 /* MissingIntegerTests.mm in Sources */,
+				B0CBDE612A49A2C700B927F5 /* DistinctTests.mm in Sources */,
 				B0B967582A479889008E7D9A /* FrogJmpTests.mm in Sources */,
 				B0B967442A476FE5008E7D9A /* BinaryGapTests.mm in Sources */,
 				B0B967622A479CF3008E7D9A /* PermMissingElemTests.mm in Sources */,
