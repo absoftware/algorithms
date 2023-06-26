@@ -59,6 +59,9 @@
 		B0CBDE642A49A89500B927F5 /* MaxProductOfThree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0CBDE622A49A89500B927F5 /* MaxProductOfThree.cpp */; };
 		B0CBDE652A49A89500B927F5 /* MaxProductOfThree.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B0CBDE632A49A89500B927F5 /* MaxProductOfThree.hpp */; };
 		B0CBDE672A49A8B200B927F5 /* MaxProductOfThreeTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = B0CBDE662A49A8B200B927F5 /* MaxProductOfThreeTests.mm */; };
+		B0CBDE6A2A49C5F900B927F5 /* Triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0CBDE682A49C5F900B927F5 /* Triangle.cpp */; };
+		B0CBDE6B2A49C5F900B927F5 /* Triangle.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B0CBDE692A49C5F900B927F5 /* Triangle.hpp */; };
+		B0CBDE6D2A49C62700B927F5 /* TriangleTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = B0CBDE6C2A49C62700B927F5 /* TriangleTests.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -125,6 +128,9 @@
 		B0CBDE622A49A89500B927F5 /* MaxProductOfThree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MaxProductOfThree.cpp; sourceTree = "<group>"; };
 		B0CBDE632A49A89500B927F5 /* MaxProductOfThree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MaxProductOfThree.hpp; sourceTree = "<group>"; };
 		B0CBDE662A49A8B200B927F5 /* MaxProductOfThreeTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MaxProductOfThreeTests.mm; sourceTree = "<group>"; };
+		B0CBDE682A49C5F900B927F5 /* Triangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Triangle.cpp; sourceTree = "<group>"; };
+		B0CBDE692A49C5F900B927F5 /* Triangle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Triangle.hpp; sourceTree = "<group>"; };
+		B0CBDE6C2A49C62700B927F5 /* TriangleTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TriangleTests.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +222,8 @@
 				B0B9675E2A479CDD008E7D9A /* PermMissingElem.hpp */,
 				B0C64F902A47B11900314E73 /* TapeEquilibrium.cpp */,
 				B0C64F912A47B11900314E73 /* TapeEquilibrium.hpp */,
+				B0CBDE682A49C5F900B927F5 /* Triangle.cpp */,
+				B0CBDE692A49C5F900B927F5 /* Triangle.hpp */,
 			);
 			path = Codility;
 			sourceTree = "<group>";
@@ -239,6 +247,7 @@
 				B0C64FA02A47BCB400314E73 /* PermCheckTests.mm */,
 				B0B967612A479CF3008E7D9A /* PermMissingElemTests.mm */,
 				B0C64F942A47B13100314E73 /* TapeEquilibriumTests.mm */,
+				B0CBDE6C2A49C62700B927F5 /* TriangleTests.mm */,
 			);
 			path = Codility;
 			sourceTree = "<group>";
@@ -270,6 +279,7 @@
 				B0B9674E2A4784E8008E7D9A /* OddOccurrencesInArray.hpp in Headers */,
 				B0B967602A479CDD008E7D9A /* PermMissingElem.hpp in Headers */,
 				B0CBDE5F2A49A2AE00B927F5 /* Distinct.hpp in Headers */,
+				B0CBDE6B2A49C5F900B927F5 /* Triangle.hpp in Headers */,
 				B0C64F932A47B11900314E73 /* TapeEquilibrium.hpp in Headers */,
 				B0B967422A476F9C008E7D9A /* BinaryGap.hpp in Headers */,
 				B0A3E9622A47F20B00D36903 /* GenomicRangeQuery.hpp in Headers */,
@@ -377,6 +387,7 @@
 				B0CBDE642A49A89500B927F5 /* MaxProductOfThree.cpp in Sources */,
 				B0B967282A476ED4008E7D9A /* AlgorithmsCppLib.cpp in Sources */,
 				B0A3E9672A482E2800D36903 /* MinAvgTwoSlice.cpp in Sources */,
+				B0CBDE6A2A49C5F900B927F5 /* Triangle.cpp in Sources */,
 				B0B967472A477A17008E7D9A /* CyclicRotation.cpp in Sources */,
 				B0C64F9E2A47BC9C00314E73 /* PermCheck.cpp in Sources */,
 				B0C64FA42A47D10100314E73 /* MaxCounters.cpp in Sources */,
@@ -394,6 +405,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0CBDE6D2A49C62700B927F5 /* TriangleTests.mm in Sources */,
 				B0A3E9642A47F22400D36903 /* GenomicRangeQueryTests.mm in Sources */,
 				B0A3E96A2A482E3C00D36903 /* MinAvgTwoSliceTests.mm in Sources */,
 				B0C64FA12A47BCB400314E73 /* PermCheckTests.mm in Sources */,
