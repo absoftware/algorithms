@@ -8,7 +8,6 @@
 #ifndef MinAvgTwoSlice_hpp
 #define MinAvgTwoSlice_hpp
 
-#include <iostream>
 #include <vector>
 
 int codility_min_avg_two_slice(std::vector<int> &A);

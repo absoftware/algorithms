@@ -8,7 +8,6 @@
 #ifndef GenomicRangeQuery_hpp
 #define GenomicRangeQuery_hpp
 
-#include <iostream>
 #include <string>
 #include <vector>
 

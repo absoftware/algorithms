@@ -8,7 +8,6 @@
 #ifndef Distinct_hpp
 #define Distinct_hpp
 
-#include <iostream>
 #include <vector>
 
 int codility_distinct(std::vector<int> &A);

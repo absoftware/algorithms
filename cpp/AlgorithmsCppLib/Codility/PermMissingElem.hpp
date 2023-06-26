@@ -8,7 +8,6 @@
 #ifndef PermMissingElem_hpp
 #define PermMissingElem_hpp
 
-#include <iostream>
 #include <vector>
 
 int codility_perm_missing_elem(std::vector<int> &A);

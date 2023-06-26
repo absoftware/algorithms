@@ -8,7 +8,6 @@
 #ifndef FrogRiverOne_hpp
 #define FrogRiverOne_hpp
 
-#include <iostream>
 #include <vector>
 
 int codility_frog_river_one(int X, std::vector<int> &A);

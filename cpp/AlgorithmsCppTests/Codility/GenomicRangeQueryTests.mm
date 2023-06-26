@@ -7,7 +7,6 @@
 
 #import <XCTest/XCTest.h>
 #import "GenomicRangeQuery.hpp"
-#include <iostream>
 #include <sstream>
 #include <algorithm>
 #include <string>

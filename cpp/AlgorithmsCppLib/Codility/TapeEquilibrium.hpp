@@ -8,7 +8,6 @@
 #ifndef TapeEquilibrium_hpp
 #define TapeEquilibrium_hpp
 
-#include <iostream>
 #include <vector>
 
 int codility_tape_equilibrium(std::vector<int> &A);

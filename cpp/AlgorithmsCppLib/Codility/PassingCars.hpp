@@ -8,7 +8,6 @@
 #ifndef PassingCars_hpp
 #define PassingCars_hpp
 
-#include <iostream>
 #include <vector>
 
 int codility_passing_cars(std::vector<int> &A);

@@ -8,7 +8,6 @@
 #ifndef MissingInteger_hpp
 #define MissingInteger_hpp
 
-#include <iostream>
 #include <vector>
 
 int codility_missing_integer(std::vector<int> &A);

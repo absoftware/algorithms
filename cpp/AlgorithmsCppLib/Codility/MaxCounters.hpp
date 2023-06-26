@@ -8,7 +8,6 @@
 #ifndef MaxCounters_hpp
 #define MaxCounters_hpp
 
-#include <iostream>
 #include <vector>
 
 std::vector<int> codility_max_counters(int N, std::vector<int> &A);
