@@ -56,6 +56,9 @@
 		B0CBDE5E2A49A2AE00B927F5 /* Distinct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0CBDE5C2A49A2AE00B927F5 /* Distinct.cpp */; };
 		B0CBDE5F2A49A2AE00B927F5 /* Distinct.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B0CBDE5D2A49A2AE00B927F5 /* Distinct.hpp */; };
 		B0CBDE612A49A2C700B927F5 /* DistinctTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = B0CBDE602A49A2C700B927F5 /* DistinctTests.mm */; };
+		B0CBDE642A49A89500B927F5 /* MaxProductOfThree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0CBDE622A49A89500B927F5 /* MaxProductOfThree.cpp */; };
+		B0CBDE652A49A89500B927F5 /* MaxProductOfThree.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B0CBDE632A49A89500B927F5 /* MaxProductOfThree.hpp */; };
+		B0CBDE672A49A8B200B927F5 /* MaxProductOfThreeTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = B0CBDE662A49A8B200B927F5 /* MaxProductOfThreeTests.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,6 +122,9 @@
 		B0CBDE5C2A49A2AE00B927F5 /* Distinct.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Distinct.cpp; sourceTree = "<group>"; };
 		B0CBDE5D2A49A2AE00B927F5 /* Distinct.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Distinct.hpp; sourceTree = "<group>"; };
 		B0CBDE602A49A2C700B927F5 /* DistinctTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = DistinctTests.mm; sourceTree = "<group>"; };
+		B0CBDE622A49A89500B927F5 /* MaxProductOfThree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MaxProductOfThree.cpp; sourceTree = "<group>"; };
+		B0CBDE632A49A89500B927F5 /* MaxProductOfThree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MaxProductOfThree.hpp; sourceTree = "<group>"; };
+		B0CBDE662A49A8B200B927F5 /* MaxProductOfThreeTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MaxProductOfThreeTests.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +200,8 @@
 				B0A3E9602A47F20B00D36903 /* GenomicRangeQuery.hpp */,
 				B0C64FA22A47D10100314E73 /* MaxCounters.cpp */,
 				B0C64FA32A47D10100314E73 /* MaxCounters.hpp */,
+				B0CBDE622A49A89500B927F5 /* MaxProductOfThree.cpp */,
+				B0CBDE632A49A89500B927F5 /* MaxProductOfThree.hpp */,
 				B0A3E9652A482E2800D36903 /* MinAvgTwoSlice.cpp */,
 				B0A3E9662A482E2800D36903 /* MinAvgTwoSlice.hpp */,
 				B0C64FA82A47D9CB00314E73 /* MissingInteger.cpp */,
@@ -223,6 +231,7 @@
 				B0C64F9A2A47B80800314E73 /* FrogRiverOneTests.mm */,
 				B0A3E9632A47F22400D36903 /* GenomicRangeQueryTests.mm */,
 				B0C64FA62A47D11300314E73 /* MaxCountersTests.mm */,
+				B0CBDE662A49A8B200B927F5 /* MaxProductOfThreeTests.mm */,
 				B0A3E9692A482E3C00D36903 /* MinAvgTwoSliceTests.mm */,
 				B0C64FAC2A47DA2700314E73 /* MissingIntegerTests.mm */,
 				B0B9674F2A47857D008E7D9A /* OddOccurrencesInArrayTests.mm */,
@@ -252,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0C64FB72A47E4BD00314E73 /* CountDiv.hpp in Headers */,
+				B0CBDE652A49A89500B927F5 /* MaxProductOfThree.hpp in Headers */,
 				B0C64FAB2A47D9CB00314E73 /* MissingInteger.hpp in Headers */,
 				B0C64FA52A47D10100314E73 /* MaxCounters.hpp in Headers */,
 				B0B967562A479873008E7D9A /* FrogJmp.hpp in Headers */,
@@ -364,6 +374,7 @@
 				B0C64FAA2A47D9CB00314E73 /* MissingInteger.cpp in Sources */,
 				B0C64FB02A47E07500314E73 /* PassingCars.cpp in Sources */,
 				B0C64F982A47B7F500314E73 /* FrogRiverOne.cpp in Sources */,
+				B0CBDE642A49A89500B927F5 /* MaxProductOfThree.cpp in Sources */,
 				B0B967282A476ED4008E7D9A /* AlgorithmsCppLib.cpp in Sources */,
 				B0A3E9672A482E2800D36903 /* MinAvgTwoSlice.cpp in Sources */,
 				B0B967472A477A17008E7D9A /* CyclicRotation.cpp in Sources */,
@@ -393,6 +404,7 @@
 				B0B967582A479889008E7D9A /* FrogJmpTests.mm in Sources */,
 				B0B967442A476FE5008E7D9A /* BinaryGapTests.mm in Sources */,
 				B0B967622A479CF3008E7D9A /* PermMissingElemTests.mm in Sources */,
+				B0CBDE672A49A8B200B927F5 /* MaxProductOfThreeTests.mm in Sources */,
 				B0C64F952A47B13100314E73 /* TapeEquilibriumTests.mm in Sources */,
 				B0B967502A47857D008E7D9A /* OddOccurrencesInArrayTests.mm in Sources */,
 				B0C64FB92A47E51300314E73 /* CountDivTests.mm in Sources */,
