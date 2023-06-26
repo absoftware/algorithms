@@ -62,6 +62,9 @@
 		B0CBDE6A2A49C5F900B927F5 /* Triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0CBDE682A49C5F900B927F5 /* Triangle.cpp */; };
 		B0CBDE6B2A49C5F900B927F5 /* Triangle.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B0CBDE692A49C5F900B927F5 /* Triangle.hpp */; };
 		B0CBDE6D2A49C62700B927F5 /* TriangleTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = B0CBDE6C2A49C62700B927F5 /* TriangleTests.mm */; };
+		B0CBDE702A49D99E00B927F5 /* Brackets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0CBDE6E2A49D99E00B927F5 /* Brackets.cpp */; };
+		B0CBDE712A49D99E00B927F5 /* Brackets.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B0CBDE6F2A49D99E00B927F5 /* Brackets.hpp */; };
+		B0CBDE732A49D9C300B927F5 /* BracketsTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = B0CBDE722A49D9C300B927F5 /* BracketsTests.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -131,6 +134,9 @@
 		B0CBDE682A49C5F900B927F5 /* Triangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Triangle.cpp; sourceTree = "<group>"; };
 		B0CBDE692A49C5F900B927F5 /* Triangle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Triangle.hpp; sourceTree = "<group>"; };
 		B0CBDE6C2A49C62700B927F5 /* TriangleTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TriangleTests.mm; sourceTree = "<group>"; };
+		B0CBDE6E2A49D99E00B927F5 /* Brackets.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Brackets.cpp; sourceTree = "<group>"; };
+		B0CBDE6F2A49D99E00B927F5 /* Brackets.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Brackets.hpp; sourceTree = "<group>"; };
+		B0CBDE722A49D9C300B927F5 /* BracketsTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = BracketsTests.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +198,8 @@
 			children = (
 				B0B9673F2A476F9C008E7D9A /* BinaryGap.cpp */,
 				B0B967402A476F9C008E7D9A /* BinaryGap.hpp */,
+				B0CBDE6E2A49D99E00B927F5 /* Brackets.cpp */,
+				B0CBDE6F2A49D99E00B927F5 /* Brackets.hpp */,
 				B0C64FB42A47E4BD00314E73 /* CountDiv.cpp */,
 				B0C64FB52A47E4BD00314E73 /* CountDiv.hpp */,
 				B0B967452A477A17008E7D9A /* CyclicRotation.cpp */,
@@ -232,6 +240,7 @@
 			isa = PBXGroup;
 			children = (
 				B0B967432A476FE5008E7D9A /* BinaryGapTests.mm */,
+				B0CBDE722A49D9C300B927F5 /* BracketsTests.mm */,
 				B0C64FB82A47E51300314E73 /* CountDivTests.mm */,
 				B0B967492A478007008E7D9A /* CyclicRotationTests.mm */,
 				B0CBDE602A49A2C700B927F5 /* DistinctTests.mm */,
@@ -286,6 +295,7 @@
 				B0B967242A476ED4008E7D9A /* AlgorithmsCppLib.hpp in Headers */,
 				B0B967262A476ED4008E7D9A /* AlgorithmsCppLibPriv.hpp in Headers */,
 				B0C64FB12A47E07500314E73 /* PassingCars.hpp in Headers */,
+				B0CBDE712A49D99E00B927F5 /* Brackets.hpp in Headers */,
 				B0C64F992A47B7F500314E73 /* FrogRiverOne.hpp in Headers */,
 				B0B967482A477A17008E7D9A /* CyclicRotation.hpp in Headers */,
 			);
@@ -381,6 +391,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0B967552A479873008E7D9A /* FrogJmp.cpp in Sources */,
+				B0CBDE702A49D99E00B927F5 /* Brackets.cpp in Sources */,
 				B0C64FAA2A47D9CB00314E73 /* MissingInteger.cpp in Sources */,
 				B0C64FB02A47E07500314E73 /* PassingCars.cpp in Sources */,
 				B0C64F982A47B7F500314E73 /* FrogRiverOne.cpp in Sources */,
@@ -421,6 +432,7 @@
 				B0B967502A47857D008E7D9A /* OddOccurrencesInArrayTests.mm in Sources */,
 				B0C64FB92A47E51300314E73 /* CountDivTests.mm in Sources */,
 				B0C64FB32A47E0D500314E73 /* PassingCarsTests.mm in Sources */,
+				B0CBDE732A49D9C300B927F5 /* BracketsTests.mm in Sources */,
 				B0C64FA72A47D11300314E73 /* MaxCountersTests.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
